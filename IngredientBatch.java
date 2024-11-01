@@ -6,9 +6,11 @@ public class IngredientBatch extends Batch
     private String expirationDate; // (MM/DD/YYYY)
     //TODO: Ingredeints in batch var
 
-    public IngredientBatch()
+    //Constructor for IngredientBatch
+    public IngredientBatch(String _dateAdded, String _expirationDate)
     {
-
+        dateAdded = _dateAdded;
+        expirationDate = _expirationDate;
     }
 
 }
